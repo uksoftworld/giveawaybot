@@ -28,18 +28,13 @@ The bot commands are (assuming a ? prefix):
 
 ## Config File
 
-[MAIN]
-BotPrefix = ?! - List of special characters for bot command prefix, 1 to many, no separators, this is "?" and "!".
-
-BotUserToken = <Discord Token> - This is the tokens for the bot user when you create the bot
-
-WinLogName = pickwinner.log - this is the name of the log file - with no path will reside in current directory
-
-AdminRole = gabAdmin - Assign this role to memeber who will be able to pickwinner or clearentries (@everyone will allow all)
-
-EntryLogName = userentries.log - this is the name of the entries log file - with no path will reside in current directory
-
-SeedCount = 0 - for testing purposes you can seed entries at start up. 
+- [MAIN]
+	- BotPrefix = ?! - List of special characters for bot command prefix, 1 to many, no separators, this is "?" and "!".
+	- BotUserToken = <Discord Token> - This is the tokens for the bot user when you create the bot
+	- WinLogName = pickwinner.log - this is the name of the log file - with no path will reside in current directory
+	- AdminRole = gabAdmin - Assign this role to memeber who will be able to pickwinner or clearentries (@everyone will allow all)
+	- EntryLogName = userentries.log - this is the name of the entries log file - with no path will reside in current directory
+	- SeedCount = 0 - for testing purposes you can seed entries at start up. 
 
 ## Requirements
 
