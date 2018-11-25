@@ -4,6 +4,7 @@ import random
 import discord
 from discord.ext.commands import Bot
 import configparser
+import os
 
 config = configparser.ConfigParser()
 config.read('giveawaybot_config.ini')
